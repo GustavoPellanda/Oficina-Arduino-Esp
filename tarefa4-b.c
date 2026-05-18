@@ -1,6 +1,12 @@
 #include <Arduino.h>
 #include <Servo.h>
 
+/*
+Código que controla o abrimento e fechamento de uma cancela, 
+utilizando um push button para definir o estado da cancela 
+e um servo motor para movimentá-la.
+*/
+
 const int buttonPin = 2; // Pino do botão
 const int servoPin = 9; // Pino do servo motor
 const int ledPin = 13; // Pino do LED verde
